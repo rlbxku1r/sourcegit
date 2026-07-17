@@ -2,6 +2,7 @@
   <ResourceDictionary.MergedDictionaries>
     <ResourceInclude Source="avares://SourceGit/Resources/Locales/en_US.axaml"/>
   </ResourceDictionary.MergedDictionaries>
+
   <x:String x:Key="Text.About" xml:space="preserve">情報<!--About--></x:String>
   <x:String x:Key="Text.About.Menu" xml:space="preserve">SourceGit について<!--About SourceGit--></x:String>
   <x:String x:Key="Text.About.ReleaseDate" xml:space="preserve">リリース日: {0}<!--Release Date: {0}--></x:String>
@@ -220,8 +221,8 @@
   ${files} 変更されたファイルへのパス
   ${files:N} 変更されたファイルへのパス (最大 N 件)
   ${pure_files} 変更されたファイルの名前
-  ${pure_files:N} 変更されたファイルの名前 (最大 N 件)<!--Built-in parameters: 
-  
+  ${pure_files:N} 変更されたファイルの名前 (最大 N 件)<!--Built-in parameters:
+
   ${branch_name} Current local branch name.
   ${files_num} Number of changed files
   ${files} Paths of changed files
@@ -241,8 +242,8 @@
   ${SHA} 選択したコミットのハッシュ
   ${TAG} 選択したタグ名
   ${FILE} リポジトリのルートから辿った、選択したファイルへの相対パス
-  $1, $2 ... 入力プロンプトの値<!--Built-in parameters: 
-  
+  $1, $2 ... 入力プロンプトの値<!--Built-in parameters:
+
   ${REPO} Repository's path
   ${REMOTE} Selected remote or selected branch's remote
   ${BRANCH} Selected branch, without ${REMOTE} part for remote branches
@@ -545,7 +546,7 @@
   <x:String x:Key="Text.HistoriesDetailsStandalone.RevisionCompare" xml:space="preserve">リビジョンを比較<!--Revision Compare--></x:String>
   <x:String x:Key="Text.Hotkeys" xml:space="preserve">キーボードショートカットを確認<!--Keyboard Shortcuts Reference--></x:String>
   <x:String x:Key="Text.Hotkeys.Global" xml:space="preserve">総合<!--GLOBAL--></x:String>
-  <x:String x:Key="Text.Hotkeys.Global.Clone" xml:space="preserve">新しいリポジトリをクローン<!--Clone new repository--></x:String>
+  <x:String x:Key="Text.Hotkeys.Global.Clone" xml:space="preserve">リモートリポジトリをクローン<!--Clone remote repository--></x:String>
   <x:String x:Key="Text.Hotkeys.Global.CloseTab" xml:space="preserve">現在のタブを閉じる<!--Close current tab--></x:String>
   <x:String x:Key="Text.Hotkeys.Global.GotoNextTab" xml:space="preserve">次のタブに移動<!--Go to next tab--></x:String>
   <x:String x:Key="Text.Hotkeys.Global.GotoPrevTab" xml:space="preserve">前のタブに移動<!--Go to previous tab--></x:String>
@@ -599,6 +600,7 @@
   <x:String x:Key="Text.Launcher.Commands" xml:space="preserve">コマンド<!--Commands--></x:String>
   <x:String x:Key="Text.Launcher.Error" xml:space="preserve">エラー<!--ERROR--></x:String>
   <x:String x:Key="Text.Launcher.Info" xml:space="preserve">通知<!--NOTICE--></x:String>
+  <x:String x:Key="Text.Launcher.NewVersion" xml:space="preserve">新しいバージョンが利用できます<!--New Version Available--></x:String>
   <x:String x:Key="Text.Launcher.OpenRepository" xml:space="preserve">リポジトリを開く<!--Open Repositories--></x:String>
   <x:String x:Key="Text.Launcher.Pages" xml:space="preserve">タブ<!--Tabs--></x:String>
   <x:String x:Key="Text.Launcher.Workspaces" xml:space="preserve">ワークスペース<!--Workspaces--></x:String>
@@ -819,9 +821,12 @@
   <x:String x:Key="Text.Repository.Explore" xml:space="preserve">ファイルブラウザーで開く<!--Open in File Browser--></x:String>
   <x:String x:Key="Text.Repository.Filter" xml:space="preserve">ブランチ/タグ/サブモジュールを検索<!--Search Branches/Tags/Submodules--></x:String>
   <x:String x:Key="Text.Repository.FilterCommits" xml:space="preserve">グラフでの可視性<!--Visibility in Graph--></x:String>
+  <x:String x:Key="Text.Repository.FilterCommits.Collapse" xml:space="preserve">絞り込み条件を折りたたむ<!--Collapse Filters--></x:String>
   <x:String x:Key="Text.Repository.FilterCommits.Default" xml:space="preserve">解除<!--Unset--></x:String>
   <x:String x:Key="Text.Repository.FilterCommits.Exclude" xml:space="preserve">コミットグラフから隠す<!--Hide in commit graph--></x:String>
+  <x:String x:Key="Text.Repository.FilterCommits.Expand" xml:space="preserve">絞り込み条件を広げる<!--Expand Filters--></x:String>
   <x:String x:Key="Text.Repository.FilterCommits.Include" xml:space="preserve">コミットグラフで絞り込む<!--Filter in commit graph--></x:String>
+  <x:String x:Key="Text.Repository.FilterCommits.Summary" xml:space="preserve">個の条件で絞り込んでいます<!--filter(s) enabled--></x:String>
   <x:String x:Key="Text.Repository.HistoriesLayout" xml:space="preserve">レイアウト<!--LAYOUT--></x:String>
   <x:String x:Key="Text.Repository.HistoriesLayout.Horizontal" xml:space="preserve">水平<!--Horizontal--></x:String>
   <x:String x:Key="Text.Repository.HistoriesLayout.Vertical" xml:space="preserve">垂直<!--Vertical--></x:String>
