@@ -215,7 +215,7 @@
   <x:String x:Key="Text.Configure" xml:space="preserve">仓库配置</x:String>
   <x:String x:Key="Text.Configure.CommitMessageTemplate" xml:space="preserve">提交信息模板</x:String>
   <x:String x:Key="Text.Configure.CommitMessageTemplate.BuiltinVars" xml:space="preserve">内置变量：
-  
+
   ${branch_name} 当前分支名
   ${files_num} 变更文件数量
   ${files} 变更文件路径列表
@@ -227,7 +227,7 @@
   <x:String x:Key="Text.Configure.CustomAction" xml:space="preserve">自定义操作</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Arguments" xml:space="preserve">命令行参数 ：</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Arguments.Tip" xml:space="preserve">内置变量：
-  
+
   ${REPO} 仓库路径
   ${REMOTE} 选中的远程仓库或选中分支所属的远程仓库
   ${BRANCH} 选中的分支，对于远程分支不包含远程名
@@ -346,6 +346,7 @@
   <x:String x:Key="Text.DeinitSubmodule.Force" xml:space="preserve">强制取消，即使包含本地变更</x:String>
   <x:String x:Key="Text.DeinitSubmodule.Path" xml:space="preserve">子模块 ：</x:String>
   <x:String x:Key="Text.DeleteBranch" xml:space="preserve">删除分支确认</x:String>
+  <x:String x:Key="Text.DeleteBranch.AskForRemote" xml:space="preserve">是否同时删除以下远程分支？</x:String>
   <x:String x:Key="Text.DeleteBranch.Branch" xml:space="preserve">分支名 ：</x:String>
   <x:String x:Key="Text.DeleteBranch.Force" xml:space="preserve">强制删除，即使包含未合并的提交</x:String>
   <x:String x:Key="Text.DeleteBranch.IsRemoteTip" xml:space="preserve">您正在删除远程上的分支，请务必小心！！！</x:String>
@@ -583,6 +584,7 @@
   <x:String x:Key="Text.Launcher.Commands" xml:space="preserve">命令列表</x:String>
   <x:String x:Key="Text.Launcher.Error" xml:space="preserve">出错了</x:String>
   <x:String x:Key="Text.Launcher.Info" xml:space="preserve">系统提示</x:String>
+  <x:String x:Key="Text.Launcher.NewVersion" xml:space="preserve">检测到新版本</x:String>
   <x:String x:Key="Text.Launcher.OpenRepository" xml:space="preserve">打开其他仓库</x:String>
   <x:String x:Key="Text.Launcher.Pages" xml:space="preserve">页面列表</x:String>
   <x:String x:Key="Text.Launcher.Workspaces" xml:space="preserve">工作区列表</x:String>
@@ -803,9 +805,12 @@
   <x:String x:Key="Text.Repository.Explore" xml:space="preserve">在文件浏览器中打开</x:String>
   <x:String x:Key="Text.Repository.Filter" xml:space="preserve">快速查找分支/标签/子模块</x:String>
   <x:String x:Key="Text.Repository.FilterCommits" xml:space="preserve">设置在列表中的可见性</x:String>
+  <x:String x:Key="Text.Repository.FilterCommits.Collapse" xml:space="preserve">折叠过滤项列表</x:String>
   <x:String x:Key="Text.Repository.FilterCommits.Default" xml:space="preserve">不指定</x:String>
   <x:String x:Key="Text.Repository.FilterCommits.Exclude" xml:space="preserve">在提交列表中隐藏</x:String>
+  <x:String x:Key="Text.Repository.FilterCommits.Expand" xml:space="preserve">展开过滤项列表</x:String>
   <x:String x:Key="Text.Repository.FilterCommits.Include" xml:space="preserve">使用其对提交列表过滤</x:String>
+  <x:String x:Key="Text.Repository.FilterCommits.Summary" xml:space="preserve">个过滤项已被启用</x:String>
   <x:String x:Key="Text.Repository.HistoriesLayout" xml:space="preserve">布局方式</x:String>
   <x:String x:Key="Text.Repository.HistoriesLayout.Horizontal" xml:space="preserve">水平排布</x:String>
   <x:String x:Key="Text.Repository.HistoriesLayout.Vertical" xml:space="preserve">竖直排布</x:String>
