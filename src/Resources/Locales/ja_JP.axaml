@@ -188,7 +188,6 @@
   <x:String x:Key="Text.CommitDetail.Files.Submodule" xml:space="preserve">サブモジュール<!--Submodule--></x:String>
   <x:String x:Key="Text.CommitDetail.Info" xml:space="preserve">コミットの情報<!--INFORMATION--></x:String>
   <x:String x:Key="Text.CommitDetail.Info.Author" xml:space="preserve">著者<!--AUTHOR--></x:String>
-  <x:String x:Key="Text.CommitDetail.Info.Children" xml:space="preserve">子コミット<!--CHILDREN--></x:String>
   <x:String x:Key="Text.CommitDetail.Info.Committer" xml:space="preserve">コミッター<!--COMMITTER--></x:String>
   <x:String x:Key="Text.CommitDetail.Info.ContainsIn" xml:space="preserve">このコミットが含まれる参照を確認<!--Check refs that contains this commit--></x:String>
   <x:String x:Key="Text.CommitDetail.Info.ContainsIn.Title" xml:space="preserve">これらの参照にコミットが含まれています<!--COMMIT IS CONTAINED BY--></x:String>
@@ -708,7 +707,6 @@
   <x:String x:Key="Text.Preferences.General.MaxHistoryCommits" xml:space="preserve">コミット履歴<!--History Commits--></x:String>
   <x:String x:Key="Text.Preferences.General.ShowChangesPageByDefault" xml:space="preserve">初めから `ローカルの変更` ページを表示<!--Show `LOCAL CHANGES` page by default--></x:String>
   <x:String x:Key="Text.Preferences.General.ShowChangesTabInCommitDetailByDefault" xml:space="preserve">初めからコミットの詳細の `変更` タブを表示<!--Show `CHANGES` tab in commit detail by default--></x:String>
-  <x:String x:Key="Text.Preferences.General.ShowChildren" xml:space="preserve">コミットの詳細に子コミットを表示<!--Show children in the commit details--></x:String>
   <x:String x:Key="Text.Preferences.General.ShowRelativeTimeInGraph" xml:space="preserve">コミットグラフを相対時間で表記<!--Show relative time in commit graph--></x:String>
   <x:String x:Key="Text.Preferences.General.ShowTagsInGraph" xml:space="preserve">コミットグラフにタグを表示<!--Show tags in commit graph--></x:String>
   <x:String x:Key="Text.Preferences.General.SubjectGuideLength" xml:space="preserve">適切とするコミットタイトルの長さ<!--Subject Guide Length--></x:String>
@@ -1031,6 +1029,7 @@
   <x:String x:Key="Text.WorkingCopy.Conflicts.Resolved" xml:space="preserve">ファイルの衝突が解決されました<!--FILE CONFLICTS ARE RESOLVED--></x:String>
   <x:String x:Key="Text.WorkingCopy.Conflicts.UseMine" xml:space="preserve">自分の変更を使用<!--USE MINE--></x:String>
   <x:String x:Key="Text.WorkingCopy.Conflicts.UseTheirs" xml:space="preserve">相手の変更を使用<!--USE THEIRS--></x:String>
+  <x:String x:Key="Text.WorkingCopy.FilterChanges" xml:space="preserve">変更を絞り込み...<!--Filter Changes...--></x:String>
   <x:String x:Key="Text.WorkingCopy.IncludeUntracked" xml:space="preserve">未追跡のファイルを含める<!--INCLUDE UNTRACKED FILES--></x:String>
   <x:String x:Key="Text.WorkingCopy.NoCommitHistories" xml:space="preserve">最近の入力メッセージはありません<!--NO RECENT INPUT MESSAGES--></x:String>
   <x:String x:Key="Text.WorkingCopy.NoCommitTemplates" xml:space="preserve">コミットテンプレートがありません<!--NO COMMIT TEMPLATES--></x:String>
