@@ -52,7 +52,6 @@
   <x:String x:Key="Text.AssumeUnchanged.Empty" xml:space="preserve">未変更と見なしたファイルはありません<!--NO FILES ASSUMED AS UNCHANGED--></x:String>
   <x:String x:Key="Text.Avatar.Load" xml:space="preserve">画像を選択...<!--Load Image...--></x:String>
   <x:String x:Key="Text.Avatar.Refetch" xml:space="preserve">再読み込み<!--Refresh--></x:String>
-  <x:String x:Key="Text.BinaryNotSupported" xml:space="preserve">バイナリファイルはサポートされていません！！！<!--BINARY FILE NOT SUPPORTED!!!--></x:String>
   <x:String x:Key="Text.Bisect">問題の発生源を特定<!--Bisect--></x:String>
   <x:String x:Key="Text.Bisect.Abort">中止<!--Abort--></x:String>
   <x:String x:Key="Text.Bisect.Bad">問題あり<!--Bad--></x:String>
@@ -361,10 +360,10 @@
   <x:String x:Key="Text.DeinitSubmodule.Force" xml:space="preserve">ローカルの変更の有無に関わらず、強制的に解除<!--Force de-init even if it contains local changes.--></x:String>
   <x:String x:Key="Text.DeinitSubmodule.Path" xml:space="preserve">サブモジュール:<!--Submodule:--></x:String>
   <x:String x:Key="Text.DeleteBranch" xml:space="preserve">ブランチを削除<!--Delete Branch--></x:String>
-  <x:String x:Key="Text.DeleteBranch.AskForRemote" xml:space="preserve">次のリモートブランチも削除しますか？<!--Do you want to also delete the following remote branch?--></x:String>
   <x:String x:Key="Text.DeleteBranch.Branch" xml:space="preserve">ブランチ:<!--Branch:--></x:String>
   <x:String x:Key="Text.DeleteBranch.Force" xml:space="preserve">未マージのコミットがあっても強制的に削除<!--Force delete even if it contains unmerged commit(s)--></x:String>
   <x:String x:Key="Text.DeleteBranch.IsRemoteTip" xml:space="preserve">リモートブランチを削除しようとしています！！！<!--You are about to delete a remote branch!!!--></x:String>
+  <x:String x:Key="Text.DeleteBranch.WithTrackingRemote" xml:space="preserve">リモートブランチ ${0}$ も削除<!--Also delete remote branch ${0}$--></x:String>
   <x:String x:Key="Text.DeleteMultiBranch" xml:space="preserve">複数のブランチを削除<!--Delete Multiple Branches--></x:String>
   <x:String x:Key="Text.DeleteMultiBranch.Tip" xml:space="preserve">複数のブランチをまとめて削除しようとしています。操作を行う前によく確認してください！<!--You are trying to delete multiple branches at one time. Be sure to double-check before taking action!--></x:String>
   <x:String x:Key="Text.DeleteMultiTags" xml:space="preserve">複数のタグを削除<!--Delete Multiple Tags--></x:String>
@@ -384,6 +383,7 @@
   <x:String x:Key="Text.DeleteTag.Tag" xml:space="preserve">タグ:<!--Tag:--></x:String>
   <x:String x:Key="Text.DeleteTag.WithRemote" xml:space="preserve">リモートリポジトリからも削除<!--Delete from remote repositories--></x:String>
   <x:String x:Key="Text.Diff.Binary" xml:space="preserve">バイナリの差分<!--BINARY DIFF--></x:String>
+  <x:String x:Key="Text.Diff.Binary.ViewContentOfNew" xml:space="preserve">新しい内容を表示<!--VIEW NEW CONTENT--></x:String>
   <x:String x:Key="Text.Diff.EmptyFile" xml:space="preserve">空のファイル<!--EMPTY FILE--></x:String>
   <x:String x:Key="Text.Diff.First" xml:space="preserve">最初の差分<!--First Difference--></x:String>
   <x:String x:Key="Text.Diff.IgnoreWhitespace" xml:space="preserve">空白文字の変更を無視<!--Ignore Whitespace Changes--></x:String>
@@ -440,6 +440,9 @@
   <x:String x:Key="Text.Fetch.NoTags" xml:space="preserve">タグなしでフェッチ<!--Fetch without tags--></x:String>
   <x:String x:Key="Text.Fetch.Remote" xml:space="preserve">リモート:<!--Remote:--></x:String>
   <x:String x:Key="Text.Fetch.Title" xml:space="preserve">リモートの変更をフェッチ<!--Fetch Remote Changes--></x:String>
+  <x:String x:Key="Text.File.Binary" xml:space="preserve">バイナリファイル<!--BINARY FILE--></x:String>
+  <x:String x:Key="Text.File.HexViewer" xml:space="preserve">バイナリビューアー<!--HEX VIEWER--></x:String>
+  <x:String x:Key="Text.File.HexViewer.GotoAddress" xml:space="preserve">アドレスに移動...<!--Go to address...--></x:String>
   <x:String x:Key="Text.FileCM.AssumeUnchanged" xml:space="preserve">未変更と見なす<!--Assume unchanged--></x:String>
   <x:String x:Key="Text.FileCM.CustomAction" xml:space="preserve">カスタムアクション<!--Custom Action--></x:String>
   <x:String x:Key="Text.FileCM.Discard" xml:space="preserve">破棄...<!--Discard...--></x:String>
