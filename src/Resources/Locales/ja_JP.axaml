@@ -681,6 +681,7 @@
   <x:String x:Key="Text.Preferences.AI.Model.AutoFetchAvailableModels" xml:space="preserve">利用できるモデル ID を自動的に取得<!--Fetch available model-ids automatically--></x:String>
   <x:String x:Key="Text.Preferences.AI.Name" xml:space="preserve">名前<!--Name--></x:String>
   <x:String x:Key="Text.Preferences.AI.ReadApiKeyFromEnv" xml:space="preserve">この値を環境変数の名前とし、そこから API キーを読み込む<!--Entered value is the name to load API key from ENV--></x:String>
+  <x:String x:Key="Text.Preferences.AI.ReasoningEffortLevel" xml:space="preserve">思考努力レベル<!--Reasoning Effort Level--></x:String>
   <x:String x:Key="Text.Preferences.AI.Server" xml:space="preserve">サーバー<!--Server--></x:String>
   <x:String x:Key="Text.Preferences.Appearance" xml:space="preserve">外観<!--APPEARANCE--></x:String>
   <x:String x:Key="Text.Preferences.Appearance.DefaultFont" xml:space="preserve">既定のフォント<!--Default Font--></x:String>
