@@ -363,7 +363,7 @@
   <x:String x:Key="Text.DeleteBranch.Branch" xml:space="preserve">ブランチ:<!--Branch:--></x:String>
   <x:String x:Key="Text.DeleteBranch.Force" xml:space="preserve">未マージのコミットがあっても強制的に削除<!--Force delete even if it contains unmerged commit(s)--></x:String>
   <x:String x:Key="Text.DeleteBranch.IsRemoteTip" xml:space="preserve">リモートブランチを削除しようとしています！！！<!--You are about to delete a remote branch!!!--></x:String>
-  <x:String x:Key="Text.DeleteBranch.WithTrackingRemote" xml:space="preserve">リモートブランチ ${0}$ も削除<!--Also delete remote branch ${0}$--></x:String>
+  <x:String x:Key="Text.DeleteBranch.WithTrackingRemote" xml:space="preserve">リモートブランチの ${0}$ も削除<!--Also delete remote branch ${0}$--></x:String>
   <x:String x:Key="Text.DeleteMultiBranch" xml:space="preserve">複数のブランチを削除<!--Delete Multiple Branches--></x:String>
   <x:String x:Key="Text.DeleteMultiBranch.Tip" xml:space="preserve">複数のブランチをまとめて削除しようとしています。操作を行う前によく確認してください！<!--You are trying to delete multiple branches at one time. Be sure to double-check before taking action!--></x:String>
   <x:String x:Key="Text.DeleteMultiTags" xml:space="preserve">複数のタグを削除<!--Delete Multiple Tags--></x:String>
