@@ -762,6 +762,7 @@
   <x:String x:Key="Text.Push.Force" xml:space="preserve">強制的にプッシュ<!--Force push--></x:String>
   <x:String x:Key="Text.Push.Local" xml:space="preserve">ローカルブランチ:<!--Local Branch:--></x:String>
   <x:String x:Key="Text.Push.New" xml:space="preserve">新規<!--NEW--></x:String>
+  <x:String x:Key="Text.Push.NoVerify" xml:space="preserve">プッシュ前のフックを実行しない<!--Bypass the pre-push hook--></x:String>
   <x:String x:Key="Text.Push.Remote" xml:space="preserve">リモート:<!--Remote:--></x:String>
   <x:String x:Key="Text.Push.Revision" xml:space="preserve">リビジョン:<!--Revision:--></x:String>
   <x:String x:Key="Text.Push.Revision.Title" xml:space="preserve">リビジョンをリモートにプッシュ<!--Push Revision To Remote--></x:String>
@@ -982,6 +983,7 @@
   <x:String x:Key="Text.TagCM.DeleteMultiple" xml:space="preserve">選択した {0} 個のタグを削除...<!--Delete selected {0} tags...--></x:String>
   <x:String x:Key="Text.TagCM.Merge" xml:space="preserve">${0}$ を ${1}$ にマージ...<!--Merge ${0}$ into ${1}$...--></x:String>
   <x:String x:Key="Text.TagCM.Push" xml:space="preserve">${0}$ をプッシュ...<!--Push ${0}$...--></x:String>
+  <x:String x:Key="Text.Terminate" xml:space="preserve">中止<!--TERMINATE--></x:String>
   <x:String x:Key="Text.UpdateSubmodules" xml:space="preserve">サブモジュールを更新<!--Update Submodules--></x:String>
   <x:String x:Key="Text.UpdateSubmodules.All" xml:space="preserve">すべてのサブモジュール<!--All submodules--></x:String>
   <x:String x:Key="Text.UpdateSubmodules.Init" xml:space="preserve">必要に応じて初期化<!--Initialize as needed--></x:String>
