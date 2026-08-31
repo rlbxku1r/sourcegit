@@ -538,6 +538,7 @@
   <x:String x:Key="Text.Histories.HighlightsInGraph.CurrentBranchOnly" xml:space="preserve">現在のブランチのみ<!--Current Branch Only--></x:String>
   <x:String x:Key="Text.Histories.HighlightsInGraph.CurrentBranchAndSelectedCommits" xml:space="preserve">現在のブランチ &amp; 選択したコミット<!--Current Branch & Selected Commits--></x:String>
   <x:String x:Key="Text.Histories.HighlightsInGraph.SelectedCommitsOnly" xml:space="preserve">選択したコミットのみ<!--Selected Commits Only--></x:String>
+  <x:String x:Key="Text.Histories.HighlightsInGraph.SelectedCommitsOnlyFirstParent" xml:space="preserve">選択したコミットかつ最初の親コミットのみ<!--Selected Commits (First-parent Only)--></x:String>
   <x:String x:Key="Text.Histories.Selected" xml:space="preserve">{0} コミットを選択しました<!--SELECTED {0} COMMITS--></x:String>
   <x:String x:Key="Text.Histories.ShowColumns" xml:space="preserve">表示する列<!--SHOW COLUMNS--></x:String>
   <x:String x:Key="Text.Histories.Tips" xml:space="preserve">'Ctrl' または 'Shift' キーを押しながらで、複数のコミットを選択できます。<!--Hold 'Ctrl' or 'Shift' to select multiple commits.--></x:String>
@@ -646,6 +647,8 @@
   <x:String x:Key="Text.Open" xml:space="preserve">開く<!--Open--></x:String>
   <x:String x:Key="Text.Open.SystemDefaultEditor" xml:space="preserve">既定のエディター (システム)<!--Default Editor (System)--></x:String>
   <x:String x:Key="Text.OpenAppDataDir" xml:space="preserve">データの保管ディレクトリを開く<!--Open Data Storage Directory--></x:String>
+  <x:String x:Key="Text.OpenAppDataDir.Cache" xml:space="preserve">キャッシュ<!--Cache--></x:String>
+  <x:String x:Key="Text.OpenAppDataDir.Config" xml:space="preserve">設定<!--Config--></x:String>
   <x:String x:Key="Text.OpenFile" xml:space="preserve">ファイルを開く<!--Open File--></x:String>
   <x:String x:Key="Text.OpenInExternalMergeTool" xml:space="preserve">外部のマージツールで開く<!--Open in External Merge Tool--></x:String>
   <x:String x:Key="Text.OpenLocalRepository" xml:space="preserve">ローカルリポジトリを開く<!--Open Local Repository--></x:String>
@@ -917,6 +920,22 @@
   <x:String x:Key="Text.SHALinkCM.NavigateTo" xml:space="preserve">このコミットに移動<!--Go to--></x:String>
   <x:String x:Key="Text.SSHKey" xml:space="preserve">SSH の秘密鍵:<!--SSH Private Key:--></x:String>
   <x:String x:Key="Text.SSHKey.Placeholder" xml:space="preserve">SSH の秘密鍵が保管されているパス<!--Private SSH key store path--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper" xml:space="preserve">SSH の鍵ツールを開く<!--Open SSH Key Helper--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.ConfirmDeletion" xml:space="preserve">これらの鍵を削除しますか？<!--Do you really want to delete the following keys?--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Fingerprint" xml:space="preserve">フィンガープリント<!--Fingerprint--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator" xml:space="preserve">SSH 鍵を生成<!--Generate SSH Key--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.ConfirmPassphrase" xml:space="preserve">パスフレーズを確認:<!--Confirm Passphrase:--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.Email" xml:space="preserve">メールアドレス:<!--Email:--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.Email.Placeholder" xml:space="preserve">必須<!--Required.--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.Name" xml:space="preserve">鍵の名前:<!--Key Name:--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.Name.Placeholder" xml:space="preserve">必須 - 例: id_github<!--Required. For example: id_github--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.Passphrase" xml:space="preserve">パスフレーズ:<!--Passphrase:--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.Start" xml:space="preserve">生成<!--GENERATE--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.Type" xml:space="preserve">種類:<!--Type:--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Generator.UsePassphrase" xml:space="preserve">秘密鍵にパスフレーズを使用<!--Use passphrase for private key--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Path" xml:space="preserve">パス<!--Path--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.PublicKey" xml:space="preserve">公開鍵<!--Public Key--></x:String>
+  <x:String x:Key="Text.SSHKeyHelper.Title" xml:space="preserve">SSH の鍵ツール<!--SSH Key Helper--></x:String>
   <x:String x:Key="Text.Start" xml:space="preserve">開始<!--START--></x:String>
   <x:String x:Key="Text.Stash" xml:space="preserve">スタッシュ<!--Stash--></x:String>
   <x:String x:Key="Text.Stash.IncludeUntracked" xml:space="preserve">未追跡のファイルを含める<!--Include untracked files--></x:String>
