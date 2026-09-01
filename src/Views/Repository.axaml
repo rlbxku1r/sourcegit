@@ -11,9 +11,9 @@
              x:DataType="vm:Repository">
   <Grid>
     <Grid.ColumnDefinitions>
-      <ColumnDefinition Width="{Binding Source={x:Static vm:Preferences.Instance}, Path=Layout.RepositorySidebarWidth, Mode=TwoWay}" MinWidth="200" MaxWidth="500"/>
+      <ColumnDefinition Width="{Binding Source={x:Static vm:Preferences.Instance}, Path=Layout.RepositorySidebarWidth, Mode=TwoWay}" MinWidth="200"/>
       <ColumnDefinition Width="3"/>
-      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="*" MinWidth="200"/>
     </Grid.ColumnDefinitions>
 
     <!-- Left Panel -->
@@ -677,6 +677,7 @@
                 <v:DateTimePresenter Grid.Column="2"
                                      Margin="4,0"
                                      ShowDateOnly="True"
+                                     FontFeatures="+tnum"
                                      Timestamp="{Binding CommitterTime}"
                                      Foreground="{DynamicResource Brush.FG2}"
                                      HorizontalAlignment="Right" VerticalAlignment="Center"/>
