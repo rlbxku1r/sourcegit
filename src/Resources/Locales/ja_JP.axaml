@@ -16,11 +16,6 @@
   <x:String x:Key="Text.AddWorktree.Location.Placeholder" xml:space="preserve">この作業ツリーへのパス (相対パスも使用できます)<!--Path for this worktree. Relative path is supported.--></x:String>
   <x:String x:Key="Text.AddWorktree.Name" xml:space="preserve">ブランチの名前:<!--Branch Name:--></x:String>
   <x:String x:Key="Text.AddWorktree.Name.Placeholder" xml:space="preserve">省略可能 - 既定では宛先のフォルダーと同じ名前が使用されます<!--Optional. Default is the destination folder name.--></x:String>
-  <x:String x:Key="Text.AddWorktree.Tracking" xml:space="preserve">追跡するブランチ:<!--Track Branch:--></x:String>
-  <x:String x:Key="Text.AddWorktree.Tracking.Toggle" xml:space="preserve">追跡するリモートブランチを設定<!--Tracking remote branch--></x:String>
-  <x:String x:Key="Text.AddWorktree.WhatToCheckout" xml:space="preserve">チェックアウトする内容:<!--What to Checkout:--></x:String>
-  <x:String x:Key="Text.AddWorktree.WhatToCheckout.CreateNew" xml:space="preserve">新しいブランチを作成<!--Create New Branch--></x:String>
-  <x:String x:Key="Text.AddWorktree.WhatToCheckout.Existing" xml:space="preserve">既存のブランチ<!--Existing Branch--></x:String>
   <x:String x:Key="Text.AIAssistant" xml:space="preserve">AI アシスタント<!--AI Assistant--></x:String>
   <x:String x:Key="Text.AIAssistant.Model" xml:space="preserve">モデル<!--MODEL--></x:String>
   <x:String x:Key="Text.AIAssistant.Regen" xml:space="preserve">再生成<!--RE-GENERATE--></x:String>
@@ -67,6 +62,7 @@
   <x:String x:Key="Text.Blame.Tips" xml:space="preserve">Ctrl (Windows/Linux) または ⌘ (macOS) キーを押しながらコミットの SHA をクリックすると、そのリビジョンを基点に著者の履歴データを再構築します。<!--Holding Ctrl (on Windows/Linux) or ⌘ (on macOS) when clicking commit SHA will rebuild blame data based on that revision.--></x:String>
   <x:String x:Key="Text.Blame.TypeNotSupported" xml:space="preserve">このファイルに著者の履歴は表示できません！！！<!--BLAME ON THIS FILE IS NOT SUPPORTED!!!--></x:String>
   <x:String x:Key="Text.BranchCM.Checkout" xml:space="preserve">${0}$ をチェックアウト...<!--Checkout ${0}$...--></x:String>
+  <x:String x:Key="Text.BranchCM.CheckoutAsWorktree" xml:space="preserve">作業ツリーとして ${0}$ をチェックアウト...<!--Checkout ${0}$ as worktree...--></x:String>
   <x:String x:Key="Text.BranchCM.CompareTwo" xml:space="preserve">選択した 2 つのブランチを比較<!--Compare selected 2 branches--></x:String>
   <x:String x:Key="Text.BranchCM.CompareWith" xml:space="preserve">比較対象を選択...<!--Compare with...--></x:String>
   <x:String x:Key="Text.BranchCM.CompareWithHead" xml:space="preserve">HEAD と比較<!--Compare with HEAD--></x:String>
@@ -123,6 +119,14 @@
   <x:String x:Key="Text.Checkout.WarnUpdatingSubmodules" xml:space="preserve">これらのサブモジュールを更新する必要があります:{0}更新しますか？<!--The following submodules need to be updated:{0}Do you want to update them?--></x:String>
   <x:String x:Key="Text.Checkout.WithFastForward" xml:space="preserve">チェックアウト &amp; 早送り<!--Checkout & Fast-Forward--></x:String>
   <x:String x:Key="Text.Checkout.WithFastForward.Upstream" xml:space="preserve">早送り先:<!--Fast-Forward to:--></x:String>
+  <x:String x:Key="Text.CheckoutAsWorktree" xml:space="preserve">作業ツリーとしてブランチをチェックアウト<!--Checkout Branch as Worktree--></x:String>
+  <x:String x:Key="Text.CheckoutAsWorktree.LocalBranch" xml:space="preserve">ローカルブランチ:<!--Local Branch:--></x:String>
+  <x:String x:Key="Text.CheckoutAsWorktree.NewBranchName" xml:space="preserve">新しいブランチ名:<!--New Branch Name:--></x:String>
+  <x:String x:Key="Text.CheckoutAsWorktree.NewBranchName.Placeholder" xml:space="preserve">省略可能 - 既定では宛先のフォルダーと同じ名前が使用されます<!--Optional. Default is the destination folder name.--></x:String>
+  <x:String x:Key="Text.CheckoutAsWorktree.RemoteBranch" xml:space="preserve">リモートブランチ:<!--Remote Branch:--></x:String>
+  <x:String x:Key="Text.CheckoutAsWorktree.Tracking" xml:space="preserve">このリモートブランチを追跡<!--Tracking this remote branch.--></x:String>
+  <x:String x:Key="Text.CheckoutAsWorktree.WorktreePath" xml:space="preserve">作業ツリーへのパス:<!--Worktree Path:--></x:String>
+  <x:String x:Key="Text.CheckoutAsWorktree.WorktreePath.Placeholder" xml:space="preserve">この作業ツリーへのパス (相対パスも使用できます)<!--Path for this worktree. Relative path is supported.--></x:String>
   <x:String x:Key="Text.CheckoutBranchFromStash" xml:space="preserve">スタッシュからブランチをチェックアウト<!--Checkout Branch From Stash--></x:String>
   <x:String x:Key="Text.CheckoutBranchFromStash.Branch" xml:space="preserve">新しいブランチ:<!--New Branch:--></x:String>
   <x:String x:Key="Text.CheckoutBranchFromStash.Stash" xml:space="preserve">スタッシュ:<!--Stash:--></x:String>
@@ -187,6 +191,7 @@
   <x:String x:Key="Text.CommitDetail.Files.LFS" xml:space="preserve">LFS ファイル<!--LFS File--></x:String>
   <x:String x:Key="Text.CommitDetail.Files.Search" xml:space="preserve">ファイルを検索...<!--Search Files...--></x:String>
   <x:String x:Key="Text.CommitDetail.Files.Submodule" xml:space="preserve">サブモジュール<!--Submodule--></x:String>
+  <x:String x:Key="Text.CommitDetail.Files.Tips" xml:space="preserve">ファイルを選択すると、内容が表示されます<!--SELECT FILE TO VIEW CONTENT--></x:String>
   <x:String x:Key="Text.CommitDetail.Info" xml:space="preserve">コミットの情報<!--INFORMATION--></x:String>
   <x:String x:Key="Text.CommitDetail.Info.Author" xml:space="preserve">著者<!--AUTHOR--></x:String>
   <x:String x:Key="Text.CommitDetail.Info.Committer" xml:space="preserve">コミッター<!--COMMITTER--></x:String>
@@ -203,7 +208,6 @@
   <x:String x:Key="Text.CommitDetail.Info.SHA" xml:space="preserve">SHA<!--SHA--></x:String>
   <x:String x:Key="Text.CommitDetail.Info.Signer" xml:space="preserve">署名者:<!--Signer:--></x:String>
   <x:String x:Key="Text.CommitDetail.Info.WebLinks" xml:space="preserve">ブラウザーで開く<!--Open in Browser--></x:String>
-  <x:String x:Key="Text.CommitMessageTextBox.Column" xml:space="preserve">列<!--COL--></x:String>
   <x:String x:Key="Text.CommitMessageTextBox.Placeholder" xml:space="preserve">コミットメッセージを入力してください。タイトルと説明は、空行で分けて記述してください！<!--Enter commit message. Please use an empty-line to separate subject and description!--></x:String>
   <x:String x:Key="Text.CommitMessageTextBox.SubjectCount" xml:space="preserve">タイトル<!--SUBJECT--></x:String>
   <x:String x:Key="Text.Compare" xml:space="preserve">比較<!--Compare--></x:String>
@@ -966,10 +970,15 @@
   <x:String x:Key="Text.Stashes.Changes" xml:space="preserve">変更<!--CHANGES--></x:String>
   <x:String x:Key="Text.Stashes.Stashes" xml:space="preserve">スタッシュ<!--STASHES--></x:String>
   <x:String x:Key="Text.Statistics" xml:space="preserve">統計<!--Statistics--></x:String>
+  <x:String x:Key="Text.Statistics.Commits" xml:space="preserve">コミット<!--COMMITS--></x:String>
   <x:String x:Key="Text.Statistics.Overview" xml:space="preserve">概要<!--OVERVIEW--></x:String>
   <x:String x:Key="Text.Statistics.ThisMonth" xml:space="preserve">月間<!--MONTH--></x:String>
   <x:String x:Key="Text.Statistics.ThisWeek" xml:space="preserve">週間<!--WEEK--></x:String>
   <x:String x:Key="Text.Statistics.Tips" xml:space="preserve">対象のブランチの 200,000 コミットまでのみを分析して表示しています。<!--SourceGit will only get a maximum of 200,000 commits according to the target branch for analysis.--></x:String>
+  <x:String x:Key="Text.Statistics.TopAuthors" xml:space="preserve">上位の著者<!--TOP AUTHORS--></x:String>
+  <x:String x:Key="Text.Statistics.TopAuthors.Count" xml:space="preserve">コミット<!--COMMITS--></x:String>
+  <x:String x:Key="Text.Statistics.TopAuthors.Percentage" xml:space="preserve">割合<!--PERCENTAGE--></x:String>
+  <x:String x:Key="Text.Statistics.TopAuthors.Tip" xml:space="preserve">コミットの割合が 1% 未満の著者は「その他」のグループにまとめられています。<!--Authors with less than 1% commits will be grouped under Others.--></x:String>
   <x:String x:Key="Text.Statistics.TotalAuthors" xml:space="preserve">著者: <!--AUTHORS: --></x:String>
   <x:String x:Key="Text.Statistics.TotalCommits" xml:space="preserve">コミット: <!--COMMITS: --></x:String>
   <x:String x:Key="Text.Submodule" xml:space="preserve">サブモジュール<!--SUBMODULES--></x:String>
@@ -1013,6 +1022,11 @@
   <x:String x:Key="Text.TagCM.Merge" xml:space="preserve">${0}$ を ${1}$ にマージ...<!--Merge ${0}$ into ${1}$...--></x:String>
   <x:String x:Key="Text.TagCM.Push" xml:space="preserve">${0}$ をプッシュ...<!--Push ${0}$...--></x:String>
   <x:String x:Key="Text.Terminate" xml:space="preserve">中止<!--TERMINATE--></x:String>
+  <x:String x:Key="Text.TrustRepository" xml:space="preserve">信用されていないリポジトリ<!--Untrusted Repository--></x:String>
+  <x:String x:Key="Text.TrustRepository.CommandTip" xml:space="preserve">このパスを信用させる `git config --global --add safe.directory {0}` コマンドを実行しますか？<!--Do you want to run `git config &#45;&#45;global &#45;&#45;add safe.directory {0}` command to trust this path?--></x:String>
+  <x:String x:Key="Text.TrustRepository.Description" xml:space="preserve">このリポジトリへのアクセスを Git が拒否しました:  <!--Git refused to access this repository:  --></x:String>
+  <x:String x:Key="Text.TrustRepository.Path" xml:space="preserve">パス:<!--Path:--></x:String>
+  <x:String x:Key="Text.TrustRepository.ScanSkipped" xml:space="preserve">Git により信用されていない {0} 個のリポジトリはスキップされました。個別にリポジトリを開き、信用できるかどうかを確認してください。<!--{0} repositories were skipped because git does not trust them. Please open them manually and confirm whether to trust them.--></x:String>
   <x:String x:Key="Text.UpdateSubmodules" xml:space="preserve">サブモジュールを更新<!--Update Submodules--></x:String>
   <x:String x:Key="Text.UpdateSubmodules.All" xml:space="preserve">すべてのサブモジュール<!--All submodules--></x:String>
   <x:String x:Key="Text.UpdateSubmodules.Init" xml:space="preserve">必要に応じて初期化<!--Initialize as needed--></x:String>
@@ -1049,6 +1063,7 @@
   <x:String x:Key="Text.WorkingCopy.CanStageTip" xml:space="preserve">このファイルをステージに上げられるようになりました。<!--You can stage this file now.--></x:String>
   <x:String x:Key="Text.WorkingCopy.ClearCommitHistories" xml:space="preserve">履歴を消去<!--Clear History--></x:String>
   <x:String x:Key="Text.WorkingCopy.ClearCommitHistories.Confirm" xml:space="preserve">コミットメッセージの履歴をすべて消去しますか？この操作は元に戻せません。<!--Are you sure you want to clear all commit message history? This action cannot be undone.--></x:String>
+  <x:String x:Key="Text.WorkingCopy.CollapseSidebar" xml:space="preserve">サイドバーを隠す<!--Hide Sidebar--></x:String>
   <x:String x:Key="Text.WorkingCopy.Commit" xml:space="preserve">コミット<!--COMMIT--></x:String>
   <x:String x:Key="Text.WorkingCopy.CommitAndPush" xml:space="preserve">コミットしてプッシュ<!--COMMIT & PUSH--></x:String>
   <x:String x:Key="Text.WorkingCopy.CommitMessageHelper" xml:space="preserve">テンプレート/履歴<!--Template/History--></x:String>
@@ -1065,6 +1080,7 @@
   <x:String x:Key="Text.WorkingCopy.Conflicts.UseMine" xml:space="preserve">自分の変更を使用<!--USE MINE--></x:String>
   <x:String x:Key="Text.WorkingCopy.Conflicts.UseTheirs" xml:space="preserve">相手の変更を使用<!--USE THEIRS--></x:String>
   <x:String x:Key="Text.WorkingCopy.DiscardAll" xml:space="preserve">すべて破棄<!--DISCARD ALL--></x:String>
+  <x:String x:Key="Text.WorkingCopy.ExpandSidebar" xml:space="preserve">サイドバーを表示<!--Show Sidebar--></x:String>
   <x:String x:Key="Text.WorkingCopy.FilterChanges" xml:space="preserve">変更を絞り込み...<!--Filter Changes...--></x:String>
   <x:String x:Key="Text.WorkingCopy.IncludeUntracked" xml:space="preserve">未追跡のファイルを含める<!--INCLUDE UNTRACKED FILES--></x:String>
   <x:String x:Key="Text.WorkingCopy.NoCommitHistories" xml:space="preserve">最近の入力メッセージはありません<!--NO RECENT INPUT MESSAGES--></x:String>
