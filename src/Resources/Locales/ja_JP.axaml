@@ -978,7 +978,7 @@
   <x:String x:Key="Text.Statistics.TopAuthors" xml:space="preserve">上位の著者<!--TOP AUTHORS--></x:String>
   <x:String x:Key="Text.Statistics.TopAuthors.Count" xml:space="preserve">コミット<!--COMMITS--></x:String>
   <x:String x:Key="Text.Statistics.TopAuthors.Percentage" xml:space="preserve">割合<!--PERCENTAGE--></x:String>
-  <x:String x:Key="Text.Statistics.TopAuthors.Tip" xml:space="preserve">コミットの割合が 1% 未満の著者は「その他」のグループにまとめられています。<!--Authors with less than 1% commits will be grouped under Others.--></x:String>
+  <x:String x:Key="Text.Statistics.TopAuthors.Tip" xml:space="preserve">コミットの割合が 1% 未満の著者は「その他」のグループに集計されています。<!--Authors with less than 1% commits will be grouped under Others.--></x:String>
   <x:String x:Key="Text.Statistics.TotalAuthors" xml:space="preserve">著者: <!--AUTHORS: --></x:String>
   <x:String x:Key="Text.Statistics.TotalCommits" xml:space="preserve">コミット: <!--COMMITS: --></x:String>
   <x:String x:Key="Text.Submodule" xml:space="preserve">サブモジュール<!--SUBMODULES--></x:String>
