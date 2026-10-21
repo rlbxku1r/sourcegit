@@ -753,7 +753,7 @@
   <x:String x:Key="Text.Preferences.Integration" xml:space="preserve">統合<!--INTEGRATION--></x:String>
   <x:String x:Key="Text.Preferences.Shell" xml:space="preserve">シェル/端末<!--SHELL/TERMINAL--></x:String>
   <x:String x:Key="Text.Preferences.Shell.Args" xml:space="preserve">引数<!--Arguments--></x:String>
-  <x:String x:Key="Text.Preferences.Shell.Args.Tip" xml:space="preserve">作業ディレクトリの明示には '.' を使用してください<!--Please use '.' to indicate working directory--></x:String>
+  <x:String x:Key="Text.Preferences.Shell.Args.ToolTip" xml:space="preserve">作業ディレクトリは '.'、フォルダー名の部分は '$FOLDER_NAME' で明示できます。<!--You can use '.' to indicate working directory and '$FOLDER_NAME' for the pure folder name of it.--></x:String>
   <x:String x:Key="Text.Preferences.Shell.Path" xml:space="preserve">パス<!--Path--></x:String>
   <x:String x:Key="Text.Preferences.Shell.Type" xml:space="preserve">シェル/端末<!--Shell/Terminal--></x:String>
   <x:String x:Key="Text.PruneRemote" xml:space="preserve">リモートを掃除<!--Prune Remote--></x:String>
