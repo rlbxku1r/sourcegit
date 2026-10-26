@@ -368,6 +368,7 @@
   <x:String x:Key="Text.DeinitSubmodule.Path" xml:space="preserve">サブモジュール:<!--Submodule:--></x:String>
   <x:String x:Key="Text.DeleteBranch" xml:space="preserve">ブランチを削除<!--Delete Branch--></x:String>
   <x:String x:Key="Text.DeleteBranch.Branch" xml:space="preserve">ブランチ:<!--Branch:--></x:String>
+  <x:String x:Key="Text.DeleteBranch.DeleteAttachedWorktree" xml:space="preserve">このブランチの作業ツリーを削除<!--Delete worktree for this branch--></x:String>
   <x:String x:Key="Text.DeleteBranch.Force" xml:space="preserve">未マージのコミットがあっても強制的に削除<!--Force delete even if it contains unmerged commit(s)--></x:String>
   <x:String x:Key="Text.DeleteBranch.IsRemoteTip" xml:space="preserve">リモートブランチを削除しようとしています！！！<!--You are about to delete a remote branch!!!--></x:String>
   <x:String x:Key="Text.DeleteBranch.WithTrackingRemote" xml:space="preserve">リモートブランチの ${0}$ も削除<!--Also delete remote branch ${0}$--></x:String>
