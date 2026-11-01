@@ -852,7 +852,7 @@
   <x:String x:Key="Text.Repository.FilterCommits.Summary" xml:space="preserve">個の条件で絞り込んでいます<!--filter(s) enabled--></x:String>
   <x:String x:Key="Text.Repository.FocusOnCurrentBranch" xml:space="preserve">現在のブランチのみを抜粋
   
-このボタンをクリックすると、コミット履歴の絞り込み条件がすべて消去され、現在のブランチとその上流ブランチに属するコミットのみが `ダッシュボード` ページに一覧表示されます。
+このボタンをクリックすると、コミット履歴の絞り込み条件がすべて消去され、現在のブランチとその上流ブランチに属するコミットのみが `ダッシュボード` ページの一覧に表示されます。
 
 手動でブランチ/タグの絞り込み条件を追加すると、この機能は自動的に無効化されます。<!--Focus on Current Branch
   
