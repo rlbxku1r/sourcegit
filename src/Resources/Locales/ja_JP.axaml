@@ -724,6 +724,7 @@
   <x:String x:Key="Text.Preferences.DiffMerge.Type" xml:space="preserve">ツール<!--Tool--></x:String>
   <x:String x:Key="Text.Preferences.General" xml:space="preserve">総合<!--GENERAL--></x:String>
   <x:String x:Key="Text.Preferences.General.Check4UpdatesOnStartup" xml:space="preserve">起動時に更新を確認<!--Check for updates on startup--></x:String>
+  <x:String x:Key="Text.Preferences.General.CheckRepositoryStatusOnWelcome" xml:space="preserve">ようこそページを開いたときにリポジトリの状態を確認<!--Check repository status when opening the Welcome page--></x:String>
   <x:String x:Key="Text.Preferences.General.DateFormat" xml:space="preserve">日付の書式<!--Date Format--></x:String>
   <x:String x:Key="Text.Preferences.General.EnableCompactFolders" xml:space="preserve">変更ツリーのフォルダー階層をまとめる<!--Enable compact folders in changes tree--></x:String>
   <x:String x:Key="Text.Preferences.General.Locale" xml:space="preserve">言語<!--Language--></x:String>
@@ -1068,8 +1069,10 @@ Manually add a branch/tag history filter will disable this feature automatically
   <x:String x:Key="Text.Welcome.OpenAllInNode" xml:space="preserve">すべてのリポジトリを開く<!--Open All Repositories--></x:String>
   <x:String x:Key="Text.Welcome.OpenOrInit" xml:space="preserve">リポジトリを開く<!--Open Repository--></x:String>
   <x:String x:Key="Text.Welcome.OpenTerminal" xml:space="preserve">端末を開く<!--Open Terminal--></x:String>
+  <x:String x:Key="Text.Welcome.RefreshStatus" xml:space="preserve">状態を再読み込み<!--Refresh Status--></x:String>
   <x:String x:Key="Text.Welcome.ScanDefaultCloneDir" xml:space="preserve">既定のクローンディレクトリ内のリポジトリを再スキャン<!--Rescan Repositories in Default Clone Dir--></x:String>
   <x:String x:Key="Text.Welcome.Search" xml:space="preserve">リポジトリを検索...<!--Search Repositories...--></x:String>
+  <x:String x:Key="Text.Welcome.ToggleStatusCheck" xml:space="preserve">ようこそページを開いたときにリポジトリの状態を確認<!--Check repository status when opening the Welcome page--></x:String>
   <x:String x:Key="Text.WorkingCopy" xml:space="preserve">ローカルの変更<!--Local Changes--></x:String>
   <x:String x:Key="Text.WorkingCopy.AddToGitIgnore" xml:space="preserve">無視<!--Git Ignore--></x:String>
   <x:String x:Key="Text.WorkingCopy.AddToGitIgnore.Extension" xml:space="preserve">*{0} ファイルをすべて無視<!--Ignore all *{0} files--></x:String>
